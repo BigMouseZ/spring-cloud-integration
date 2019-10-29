@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    config:
+      label: master
+      profile: dev
+      discovery:
+        enabled: true
+        service-id: cloud-config
+  application:
+    name: cloud-order
+  rabbitmq:
+    host: apg-server
+    port: 5672
+    username: guest
+    password: guest
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8801/eureka/
+  instance:
+    prefer-ip-address: true
