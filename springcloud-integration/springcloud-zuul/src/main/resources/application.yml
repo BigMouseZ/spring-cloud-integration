@@ -16,6 +16,12 @@ management:
 zuul:
   prefix: /api
   routes:
-    cloud-user: /myuser/**
-    cloud-order: /myorder/**
-    cloud-good: /mygood/**
+    cloud-user:
+      path: /myuser/**
+      serviceId: cloud-user
+    cloud-order:
+      path: /myorder/**
+      serviceId: cloud-order
+    cloud-good:
+      path: /mygood/**
+      serviceId: cloud-good

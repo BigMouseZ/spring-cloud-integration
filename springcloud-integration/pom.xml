@@ -24,6 +24,9 @@
         <module>springcloud-config</module>
         <module>springcloud-good</module>
         <module>springcloud-order</module>
+        <module>springcloud-user</module>
+        <module>springcloud-feignclient</module>
+
     </modules>
 
     <dependencies>
