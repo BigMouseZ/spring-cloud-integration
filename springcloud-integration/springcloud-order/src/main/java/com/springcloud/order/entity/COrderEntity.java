@@ -25,7 +25,7 @@ import java.util.Objects;
  * @date 2019-07-03 11:26
  */
 @Entity
-@Table(name = "c_order", schema = "cloud_order", catalog = "")
+@Table(name = "c_order")
 @EntityListeners(AuditingEntityListener.class)
 public class COrderEntity {
     private String id;

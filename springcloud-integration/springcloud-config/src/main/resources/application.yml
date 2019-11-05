@@ -7,7 +7,9 @@ spring:
     config:
       server:
         git:
-          uri: git@gitee.com:apgblogs/springCloudStudyConfig.git
+          uri: http://172.18.11.13/zhanggang/springcloudgitconfig.git
+          username: zhanggang
+          password: 1234zxcv
   rabbitmq:
     host: 172.18.11.13
     port: 5672

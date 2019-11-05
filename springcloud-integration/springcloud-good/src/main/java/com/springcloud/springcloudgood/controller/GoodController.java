@@ -31,6 +31,7 @@ public class GoodController {
      */
     @GetMapping("{id}")
     public CGoodEntity getGood(@PathVariable String id){
+
         return goodService.getGood(id);
     }
     

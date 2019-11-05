@@ -2,6 +2,7 @@ spring:
   cloud:
     config:
       label: master
+      name: application-order
       profile: dev
       discovery:
         enabled: true
@@ -9,13 +10,13 @@ spring:
   application:
     name: cloud-order
   rabbitmq:
-    host: apg-server
+    host: 172.18.11.13
     port: 5672
-    username: guest
-    password: guest
+    username: admin
+    password: admin
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8801/eureka/
+      defaultZone: http://localhost:8761/eureka/
   instance:
     prefer-ip-address: true

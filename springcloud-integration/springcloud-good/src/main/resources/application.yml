@@ -1,5 +1,5 @@
 server:
-  port: 8883
+  port: 8803
 spring:
   datasource:
     name: druidDataSource
@@ -36,7 +36,7 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     show-sql: true
     hibernate:
-      ddl-auto: update
+      ddl-auto: none
   application:
     name: cloud-good
 eureka:
