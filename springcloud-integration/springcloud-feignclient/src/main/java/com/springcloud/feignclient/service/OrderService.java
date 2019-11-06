@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import java.util.List;
 
 /**
- * @author xiaomianyang
+ * @author ZhangGang
  * @description
  * @date 2019-07-19 11:32
  */
@@ -17,7 +17,7 @@ public interface OrderService {
 
     /**
      * @description 获取用户订单列表
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-07-19 12:26
      * @param [userId]
      * @return java.util.List<com.apgblogs.clouduser.dto.OrderDto>

@@ -4,7 +4,7 @@ import com.springcloud.springclouduser.entity.CUserEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
- * @author xiaomianyang
+ * @author ZhangGang
  * @description
  * @date 2019-07-02 20:12
  */

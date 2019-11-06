@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author xiaomianyang
+ * @author ZhangGang
  * @description
  * @date 2019-07-20 12:07
  */
@@ -74,11 +74,11 @@ public class UserCenterController {
      * @param []
      * @return java.util.List<com.apgblogs.clouduser.dto.OrderDto>
      * @description 获取当前用户的订单列表
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-07-19 13:05
      */
     @HystrixCommand(fallbackMethod = "fallback", commandProperties = {
-            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "500")// 指定fallback，指定超时时间，超时时间默认为1秒
+            @HystrixProperty(name = "execution.isolation.thread.timeoutInMilliseconds", value = "2500")// 指定fallback，指定超时时间，超时时间默认为1秒
     }, threadPoolProperties = {
             @HystrixProperty(name = "coreSize", value = "30"),
             @HystrixProperty(name = "maxQueueSize", value = "101"),

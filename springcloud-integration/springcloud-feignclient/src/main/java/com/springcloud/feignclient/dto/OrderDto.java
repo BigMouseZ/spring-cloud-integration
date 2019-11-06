@@ -3,7 +3,7 @@ package com.springcloud.feignclient.dto;
 import java.sql.Timestamp;
 
 /**
- * @author xiaomianyang
+ * @author ZhangGang
  * @description
  * @date 2019-07-19 12:24
  */

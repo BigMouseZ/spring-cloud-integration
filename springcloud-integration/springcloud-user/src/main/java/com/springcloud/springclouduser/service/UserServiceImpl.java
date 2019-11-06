@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
 /**
- * @author xiaomianyang
+ * @author ZhangGang
  * @description
  * @date 2019-07-02 20:15
  */
@@ -19,7 +19,7 @@ public class UserServiceImpl {
     
     /**
      * @description 通过用户Id获取用户
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-07-02 20:16
      * @param [id]
      * @return com.apgblogs.clouduser.entity.CUserEntity
@@ -33,7 +33,7 @@ public class UserServiceImpl {
     
     /**
      * @description 保存用户
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-07-02 20:19
      * @param [userEntity]
      * @return com.apgblogs.clouduser.entity.CUserEntity

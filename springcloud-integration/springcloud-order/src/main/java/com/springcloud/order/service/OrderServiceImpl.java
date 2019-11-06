@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 /**
- * @author xiaomianyang
+ * @author ZhangGang
  * @description
  * @date 2019-07-03 11:38
  */
@@ -20,7 +20,7 @@ public class OrderServiceImpl {
 
     /**
      * @description 通过订单Id获取订单
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-07-03 12:32
      * @param [id]
      * @return com.apgblogs.cloudorder.entity.COrderEntity
@@ -34,7 +34,7 @@ public class OrderServiceImpl {
 
     /**
      * @description 保存订单
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-07-03 12:33
      * @param [orderEntity]
      * @return com.apgblogs.cloudorder.entity.COrderEntity
@@ -46,7 +46,7 @@ public class OrderServiceImpl {
 
     /**
      * @description 获取用户下的订单
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-07-19 12:09
      * @param [userId]
      * @return java.util.List<com.apgblogs.cloudorder.entity.COrderEntity>

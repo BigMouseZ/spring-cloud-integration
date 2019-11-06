@@ -4,7 +4,7 @@ import com.springcloud.order.entity.COrderDetailEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
- * @author xiaomianyang
+ * @author ZhangGang
  * @description
  * @date 2019-07-03 11:38
  */

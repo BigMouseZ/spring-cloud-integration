@@ -1,14 +1,13 @@
-package com.springcloud.feignclient.dto;
+package com.springcloud.springcloudribbon;
 
 import java.sql.Timestamp;
 
 /**
  * @author ZhangGang
  * @description
- * @date 2019-07-20 15:28
+ * @date 2019-07-02 20:10
  */
-public class UserDto {
-
+public class CUserEntity {
     private String id;
     private String userName;
     private String nickName;
@@ -80,5 +79,19 @@ public class UserDto {
 
     public void setUpdateBy(String updateBy) {
         this.updateBy = updateBy;
+    }
+
+    @Override
+    public String toString() {
+        return "CUserEntity{" +
+                "id='" + id + '\'' +
+                ", userName='" + userName + '\'' +
+                ", nickName='" + nickName + '\'' +
+                ", userPswd='" + userPswd + '\'' +
+                ", createDate=" + createDate +
+                ", createBy='" + createBy + '\'' +
+                ", updateDate=" + updateDate +
+                ", updateBy='" + updateBy + '\'' +
+                '}';
     }
 }

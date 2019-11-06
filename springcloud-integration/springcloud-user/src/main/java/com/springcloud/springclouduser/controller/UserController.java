@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author xiaomianyang
+ * @author ZhangGang
  * @description
  * @date 2019-07-02 20:13
  */
@@ -28,39 +28,41 @@ public class UserController {
 
     /**
      * @description 环境配置获取
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-09-20 14:28
      * @param []
      * @return java.lang.String
      */
     @GetMapping("getEnvName")
-    public String getEnvName(){
+    public String getEnvName()throws Exception{
+        Thread.sleep(1200);
         return envName;
     }
     
     /**
      * @description 获取用户
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-07-02 20:17
      * @param [id]
      * @return com.apgblogs.clouduser.entity.CUserEntity
      */
     @GetMapping("{id}")
     public CUserEntity getUser(@PathVariable String id) throws Exception{
-        Thread.sleep(1200);
+        Thread.sleep(1000);
 //        int c=2/0;
         return userService.getUser(id);
     }
     
     /**
      * @description 保存用户
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-07-02 20:20
      * @param [userEntity]
      * @return com.apgblogs.clouduser.entity.CUserEntity
      */
-    @PostMapping
+    @PostMapping("saveUser")
     public CUserEntity saveUser(@RequestBody CUserEntity CUserEntity){
+
         return userService.saveUser(CUserEntity);
     }
 }

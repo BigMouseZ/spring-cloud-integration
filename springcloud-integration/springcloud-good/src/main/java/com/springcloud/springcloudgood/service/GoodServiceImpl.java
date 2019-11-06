@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
- * @author xiaomianyang
+ * @author ZhangGang
  * @description
  * @date 2019-07-04 12:06
  */
@@ -18,7 +18,7 @@ public class GoodServiceImpl {
     
     /**
      * @description 查询商品
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-07-04 12:07
      * @param [id]
      * @return com.apgblogs.cloudgood.entity.CGoodEntity
@@ -32,7 +32,7 @@ public class GoodServiceImpl {
 
     /**
      * @description 保存商品
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-07-04 12:08
      * @param [cGoodEntity]
      * @return com.apgblogs.cloudgood.entity.CGoodEntity

@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author xiaomianyang
+ * @author ZhangGang
  * @description
  * @date 2019-07-04 12:08
  */
@@ -24,7 +24,7 @@ public class GoodController {
     
     /**
      * @description 查询商品
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-07-04 12:16
      * @param [id]
      * @return com.apgblogs.cloudgood.entity.CGoodEntity
@@ -37,7 +37,7 @@ public class GoodController {
     
     /**
      * @description 保存商品
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-07-04 12:11
      * @param [cGoodEntity]
      * @return com.apgblogs.cloudgood.entity.CGoodEntity

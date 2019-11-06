@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 /**
- * @author xiaomianyang
+ * @author ZhangGang
  * @description
  * @date 2019-07-03 12:33
  */
@@ -32,7 +32,7 @@ public class OrderController {
 
     /**
      * @description 环境配置获取
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-09-20 14:28
      * @param []
      * @return java.lang.String
@@ -44,7 +44,7 @@ public class OrderController {
     
     /**
      * @description 获取订单
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-07-03 12:34
      * @param [id]
      * @return com.apgblogs.cloudorder.entity.COrderEntity
@@ -56,7 +56,7 @@ public class OrderController {
     
     /**
      * @description 新增订单
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-07-03 13:09
      * @param [orderEntity]
      * @return com.apgblogs.cloudorder.entity.COrderEntity
@@ -69,7 +69,7 @@ public class OrderController {
 
     /**
      * @description 通过用户Id查询用户订单列表
-     * @author xiaomianyang
+     * @author ZhangGang
      * @date 2019-07-19 12:09
      * @param [userId]
      * @return java.util.List<com.apgblogs.cloudorder.entity.COrderEntity>
