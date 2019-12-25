@@ -51,6 +51,8 @@ public class OrderController {
      */
     @GetMapping("{id}")
     public COrderEntity getOrder(@PathVariable String id){
+
+
         return orderService.getOrder(id);
     }
     
